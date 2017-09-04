@@ -27,5 +27,10 @@ main() {
     //loop principal:
     while (1) {
         
+        //test
+        RB0 = 1;
+        __delay_ms(100);
+        RB0 = 0;
+        __delay_ms(100);
     }
 }
